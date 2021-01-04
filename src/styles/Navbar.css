@@ -1,0 +1,30 @@
+
+.launchButton{
+    align-items: flex-end;
+}
+.app__navbar__data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: #ff914d !important;
+    box-shadow: none !important;
+    border: #ff914d !important;
+}
+.btn-primary:hover{
+    color: black !important;
+}
+
+.nav-item a:visited{
+    border-bottom: #ff914d !important;
+}
+
+
+@media screen and (max-width: 991px) {
+    .app__navbar__data{
+        display: block;
+        
+        
+    }
+}

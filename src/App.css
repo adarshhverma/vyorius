@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+  width: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__main{
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-bottom: 13%;
+  vertical-align: middle;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.app__main__left{
+  width: 50%;
+}
+.app__main__right{
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media screen and (max-width: 991px) {
+    .app__main{
+      flex-direction: column;
+      padding: 4% 25%;
+      text-align: center;
+    }
+    .app__main__left{
+      width: 100%;
+    }
+    .app__main__right{
+      width: 100%;
+    }
+    #button1, #button2{
+      padding: 3% 6%;
+      margin: 2% 2%;
+    }
 }

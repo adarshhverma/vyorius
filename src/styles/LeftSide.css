@@ -1,0 +1,46 @@
+.highlight{
+    color: #ff914d;
+    /* font-size: 1rem; */
+}
+
+.mainHead{
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+}
+.mainPara{
+    font-size: 1.2rem;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#button1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 2%;
+    padding: 3% 13%;
+    background-color: #ff914d;
+    border-color: #ff914d;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: none;
+}
+#button2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 2%;
+    padding: 3% 13%;
+    background-color: #fff;
+    border-color: #ff914d;
+    color: #ff914d;
+    border-radius: 8px;
+    box-shadow: none;
+    cursor: pointer;
+
+}
+
+#button1:hover{
+    color:black;
+}
